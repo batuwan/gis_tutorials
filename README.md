@@ -14,3 +14,6 @@ This repository was created for my graduation project that I prepared in the Spr
 > </br></br>
 > **ITU Ayazaga Campus Vector Data Set**</br>
 > from OpenStreetMap
+> </br></br>
+> **DEM data of Istanbul**</br>
+> from USGS EarthExplorer
