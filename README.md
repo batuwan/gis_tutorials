@@ -1,7 +1,7 @@
 # gis_tutorials
 This repository was created for my graduation project that I prepared in the Spring Term of 2020.
 
-###Click on the link below for the output of the Folium tutorial
+### Click on the link below for the output of the Folium tutorial
 > https://batuwan.github.io/gis_tutorials/folium_demo.html
 
 <h3>Sources of data used in tutorials</h3>	
