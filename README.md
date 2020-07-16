@@ -4,7 +4,7 @@ This repository was created for my graduation project that I prepared in the Spr
 <h3>Sources of data used in tutorials</h3>	
 
 > **Administrative Divisions Data Set**</br>
->>***District borders data, which are "Level 2" data, were used in the tutorials!***</br>
+>***District borders data, which are "Level 2" data, were used in the tutorials!***</br>
 > from The Humanitarian Data Exchange, link : https://data.humdata.org/dataset/turkey-administrative-boundaries-levels-0-1-2
 > </br></br>
 > **Fire Stations in Istanbul Data Set**</br>
