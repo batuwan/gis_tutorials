@@ -5,7 +5,9 @@ from folium.plugins import MarkerCluster
 
 map_1 = folium.Map(location=[41.20,29], tiles='openstreetmap', zoom_start=9)
 
-fire_stations = pd.read_csv("/home/batu/Desktop/Bitirme/itfaiye_lokasyon.csv", encoding='UTF-8', sep= ';')
+########## İtfaiye İstasyonları Lokasyon Veri Seti, dosyanın lokasyonu belirtilerek "read_csv" fonksiyonu ile okunmalıdır! 
+
+fire_stations = pd.read_csv("itfaiye_lokasyon.csv", encoding='UTF-8', sep= ';') 
 print(fire_stations.head())
 
 fire_stations.dropna(subset = ['ENLEM','BOYLAM','ITFAIYE_LOKASYON'], inplace=True)
@@ -17,4 +19,7 @@ for index, row in fire_stations.iterrows():
 map_1.add_child(marker_cluster)
 
 
-map_1.save('folium_demo.html')
+####Çıktı dosyanın ismi, kaydedileceği konum "save" fonksiyonunun içine yazılmalıdır.
+####Bu haliyle '.py' uzantılı bu dosyanın bulunduğu konuma kaydedilecektir.
+
+map_1.save('folium_demo.html') 
