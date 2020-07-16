@@ -2,7 +2,8 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 
 # Çalışılacak katmanın içe aktarılması.
-istanbul_nufus = gpd.read_file("/home/batu/Desktop/Bitirme/öznitelikler/istanbul_nufus.shp")
+# Istanbul_Nufus_Geopandas klasöründe bulunan "shapefile" dosyası okutulmalıdır !
+istanbul_nufus = gpd.read_file("istanbul_nufus.shp")
 
 fig = istanbul_nufus.plot(column = "2019_pop", #Kullanılacak sütun
                           scheme = "quantiles", #Sınıflandırma şeması
